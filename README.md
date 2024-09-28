@@ -1,7 +1,7 @@
 ## 💫 About Me:
 
 👨‍💻 **Développeur depuis 1 an**  
-Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour des lignes de code informatique. Après plusieurs années dans le droit, j’ai trouvé une nouvelle passion dans le développement logiciel, combinant rigueur et créativité technique. Mon expertise se concentre principalement sur le développement backend en PHP avec Symfony, mais j’interviens également en JavaScript pour le frontend.
+Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour des lignes de code informatique. Après plusieurs années dans le droit, j’ai trouvé une nouvelle passion dans le développement logiciel, combinant rigueur et créativité technique. Mon expertise se concentre principalement sur le développement backend en **PHP** avec **Symfony**, mais j’interviens également en **JavaScript** pour le frontend.
 
 ---
 
@@ -18,13 +18,9 @@ Cette citation guide mon approche : chaque jour est une opportunité d'apprendre
 
 👥 **Ouvert à la collaboration**  
 Je suis à la recherche de projets collaboratifs où je peux mettre à profit mon parcours unique et mes compétences techniques. Travailler avec des équipes dynamiques est pour moi l'occasion de repousser les limites et de créer des solutions innovantes.
-
+Mes contributions ont inclus l'utilisation de **Git** pour la gestion de versions et **Trello** pour le suivi de projets, afin d'assurer une collaboration fluide et organisée. 
 ---
 
-📚 **Apprentissage constant**  
-Le développement est un domaine en perpétuelle évolution, et je suis engagé dans une démarche d’apprentissage continu.
-
----
 
 💬 **Disponible pour échanger**  
 Que ce soit pour discuter de développement, de projets ou de stratégies d’innovation, je suis toujours partant pour des échanges constructifs et enrichissants.
