@@ -14,17 +14,16 @@ Mon parcours académique reflète ma diversité d’intérêts. Je suis titulair
 _"Tout ce que je sais, c'est que je ne sais rien"_ - **Socrate**  
 Cette citation guide mon approche : chaque jour est une opportunité d'apprendre. Je crois fermement qu’il y a toujours quelque chose à découvrir, que ce soit dans la technologie ou en échangeant avec les autres.
 
----
-
 👥 **Ouvert à la collaboration**  
 Je suis à la recherche de projets collaboratifs où je peux mettre à profit mon parcours unique et mes compétences techniques. Travailler avec des équipes dynamiques est pour moi l'occasion de repousser les limites et de créer des solutions innovantes.
-Mes contributions ont inclus l'utilisation de *Git* pour la gestion de versions et *Trello* pour le suivi de projets, afin d'assurer une collaboration fluide et organisée. 
 ---
 
+📚 **Apprentissage constant**  
+Le développement est un domaine en perpétuelle évolution, et je suis engagé dans une démarche d’apprentissage continu.
+---
 
 💬 **Disponible pour échanger**  
 Que ce soit pour discuter de développement, de projets ou de stratégies d’innovation, je suis toujours partant pour des échanges constructifs et enrichissants.
-
 
 ## 👨‍💻 Développeur Full Stack - Profil Technique
 
