@@ -6,7 +6,7 @@ Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour d
 ---
 
 🎓 **Formation pluridisciplinaire**  
-Mon parcours académique reflète ma diversité d’intérêts. Je suis titulaire d'un **Master en Sécurité et Défense Internationale**, j’ai étudié les **Sciences du Langage à Toulouse** ainsi que l’**Informatique, les Mathématiques et la Mécanique Physique à Marseille** (en distanciel).
+Mon parcours académique reflète ma diversité d’intérêts. Je suis titulaire d'un **Master en Sécurité et Défense Internationale**, j’ai étudié les **Sciences du Langage à Toulouse** ainsi que l’**Informatique, les Mathématiques et la Mécanique Physique à Marseille** (en distanciel). Ces formations m'ont permis de développer des compétences transversales dans l'analyse, la gestion de projets et la résolution de problèmes complexes.
 
 ---
 
