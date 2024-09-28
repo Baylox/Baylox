@@ -1,7 +1,7 @@
 ## 💫 About Me:
 
 👨‍💻 **Développeur depuis 1 an**  
-Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour des lignes de code informatique. Après plusieurs années dans le droit, j’ai trouvé une nouvelle passion dans le développement logiciel, combinant rigueur et créativité technique.
+Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour des lignes de code informatique. Après plusieurs années dans le droit, j’ai trouvé une nouvelle passion dans le développement logiciel, combinant rigueur et créativité technique. Mon expertise se concentre principalement sur le développement backend en PHP avec Symfony, mais j’interviens également en JavaScript pour le frontend.
 
 ---
 
