@@ -18,7 +18,7 @@ Cette citation guide mon approche : chaque jour est une opportunité d'apprendre
 
 👥 **Ouvert à la collaboration**  
 Je suis à la recherche de projets collaboratifs où je peux mettre à profit mon parcours unique et mes compétences techniques. Travailler avec des équipes dynamiques est pour moi l'occasion de repousser les limites et de créer des solutions innovantes.
-Mes contributions ont inclus l'utilisation de **Git** pour la gestion de versions et **Trello** pour le suivi de projets, afin d'assurer une collaboration fluide et organisée. 
+Mes contributions ont inclus l'utilisation de *Git* pour la gestion de versions et *Trello* pour le suivi de projets, afin d'assurer une collaboration fluide et organisée. 
 ---
 
 
