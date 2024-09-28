@@ -14,6 +14,8 @@ Mon parcours académique reflète ma diversité d’intérêts. Je suis titulair
 _"Tout ce que je sais, c'est que je ne sais rien"_ - **Socrate**  
 Cette citation guide mon approche : chaque jour est une opportunité d'apprendre. Je crois fermement qu’il y a toujours quelque chose à découvrir, que ce soit dans la technologie ou en échangeant avec les autres.
 
+---
+
 👥 **Ouvert à la collaboration**  
 Je suis à la recherche de projets collaboratifs où je peux mettre à profit mon parcours unique et mes compétences techniques. Travailler avec des équipes dynamiques est pour moi l'occasion de repousser les limites et de créer des solutions innovantes.
 ---
