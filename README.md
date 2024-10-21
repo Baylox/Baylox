@@ -1,10 +1,5 @@
 ## 💫 About Me:
 
-👨‍💻 **Développeur depuis 1 an**  
-Avec un parcours atypique, j’ai échangé mes lignes de code juridiques pour des lignes de code informatique. Après plusieurs années dans le droit, j’ai trouvé une nouvelle passion dans le développement logiciel, combinant rigueur et créativité technique. Mon expertise se concentre principalement sur le développement backend en **PHP** avec **Symfony**, mais j’interviens également en **JavaScript** pour le frontend.
-
----
-
 🎓 **Formation pluridisciplinaire**  
 Mon parcours académique reflète ma diversité d’intérêts. Je suis titulaire d'un **Master en Sécurité et Défense Internationale**, j’ai étudié les **Sciences du Langage à Toulouse** ainsi que l’**Informatique, les Mathématiques et la Mécanique Physique à Marseille** (en distanciel). Ces formations m'ont permis de développer des compétences transversales dans l'analyse, la gestion de projets et la résolution de problèmes complexes.
 
