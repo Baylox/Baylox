@@ -9,7 +9,6 @@ Mon parcours académique reflète ma diversité d’intérêts. Je suis titulair
 _"Tout ce que je sais, c'est que je ne sais rien"_ - **Socrate**  
 Cette citation guide mon approche : chaque jour est une opportunité d'apprendre. Je crois fermement qu’il y a toujours quelque chose à découvrir, que ce soit dans la technologie ou en échangeant avec les autres.
 
-<a href="https://app.daily.dev/baylodaymic"><img src="https://api.daily.dev/devcards/v2/fiJUNk92JxWU5c0f8Ibzy.png?type=default&r=pnv" width="356" alt="Joris DUPONT-ALAMO (Baylo)'s Dev Card"/></a>
 
 ## 👨‍💻 Développeur Full Stack - Profil Technique
 
