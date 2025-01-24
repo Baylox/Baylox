@@ -1,11 +1,11 @@
 <h2 align="left">Hey ! My name is Joris Dupont-Alamo, and I'm a web wizard from France, casting spells with code! 🧙‍♂️✨</h2>
 
 ###
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Baylox&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false&custom_title=What%20Powers%20My%20Code" height="150" alt="languages graph"  />
 </div>
+
+###
 
 ###
 
