@@ -2,7 +2,7 @@
 
 ###
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false&custom_title=What%20Powers%20My%20Code" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&hide=css,html,dockerfile,makefile,shell&theme=dracula&hide_border=false&custom_title=What%20Powers%20My%20Code" height="150" alt="languages graph" />
 </div>
 
 ###
