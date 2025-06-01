@@ -64,14 +64,6 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
 ---
 
-## What Powers My Code
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide=html,scss,css,makefile,shell,glsl,hack,Procfile,dockerfile&theme=dracula&hide_border=false&custom_title=Languages%20I%20Use" height="150" alt="Top languages" />
-</div>
-
----
-
 ## My GitHub Activity
 
 <div align="center">
