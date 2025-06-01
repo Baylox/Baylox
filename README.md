@@ -1,28 +1,97 @@
-<h2 align="left">Hey ! My name is Joris Dupont-Alamo, and I'm a web wizard from France, casting spells with code! 🧙‍♂️✨</h2>
+<h1 align="center">Joris Dupont-Alamo</h1>
+<h3 align="center">Web Developer · Back-End Specialist · Data & Security Enthusiast</h3>
 
-###
+<hr/>
+
+<p align="center">
+  <strong>Clean code, scalable systems, and technical precision.</strong><br/>
+  Building modern web applications with performance, reliability, and maintainability in mind.
+</p>
+
+---
+
+## About Me
+
+I'm a web developer from France with a deep interest in backend development, data architecture, and cybersecurity.
+
+I focus on building solid, modular applications using technologies such as **Symfony**, **Node.js**, and **Docker**. I'm also engaged in the creation of secure and efficient APIs, data pipelines, and CLI tools that make a difference.
+
+I have real-world experience working with both **relational** and **NoSQL** databases, implementing clean data models and writing optimized queries with a strong emphasis on security and reliability.
+
+---
+
+## Tech Toolbox
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&hide=html,scss,css,makefile,shell,glsl,hack,Procfile,dockerfile&theme=dracula&hide_border=false&custom_title=What%20Powers%20My%20Code" height="150" alt="languages graph" />
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Technologies</th>
+  </tr>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>PHP, JavaScript (Node.js), SQL, TypeScript, Python</td>
+  </tr>
+  <tr>
+    <td><strong>Frameworks</strong></td>
+    <td>Symfony, Express, NestJS, React, Doctrine, Prisma</td>
+  </tr>
+  <tr>
+    <td><strong>Databases</strong></td>
+    <td>MySQL, PostgreSQL, MongoDB Atlas</td>
+  </tr>
+  <tr>
+    <td><strong>Dev Tools</strong></td>
+    <td>Docker, Git, Composer, Webpack, VS Code</td>
+  </tr>
+  <tr>
+    <td><strong>Practices</strong></td>
+    <td>REST API design, CLI development, Secure coding, Devcontainers, Shell scripting</td>
+  </tr>
+</table>
+
 </div>
 
-###
+---
 
-###
+## Data Engineering & Security
 
-<h4 align="center">If you want to collaborate or discuss job opportunities, feel free to reach out ! 💼🤝</h4>
+- Database modeling, indexing strategies, and schema design
+- Implementation of secure access control (role-based permissions, input validation)
+- Query optimization using Doctrine and Prisma ORM
+- Development of custom vulnerability scanners and API security tests (CodeCrafters challenges, personal tools)
 
-###
+---
 
-<br clear="both">
-
-<div align="center">
-  <img height="175" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJza3YxeTBycHR1MHV5ZzBrNXF1b2E5MTNhdTY2eDF2Yzc5bWxudyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ua7vVw9awZKWwLSYpW/giphy.webp"  />
-</div>
-
-###
+## What Powers My Code
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Baylox&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Baylox&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide=html,scss,css,makefile,shell,glsl,hack,Procfile,dockerfile&theme=dracula&hide_border=false&custom_title=Languages%20I%20Use" height="150" alt="Top languages" />
 </div>
 
-###
+---
+
+## My GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Baylox&radius=16&theme=react&area=true" height="300" alt="Activity graph" />
+</div>
+
+---
+
+## Contact
+
+If you'd like to collaborate or discuss technical challenges :
+
+<p align="center">
+  <a href="mailto:jdupontalamo@gmail.com"><img src="https://img.shields.io/badge/Email-jdupontalamo@gmail.com-blue?style=flat-square&logo=gmail" /></a>
+  <a href="https://www.linkedin.com/in/joris-dupont-alamo-8784aa33a"><img src="https://img.shields.io/badge/LinkedIn-Joris%20Dupont--Alamo-blue?style=flat-square&logo=linkedin" /></a>
+</p>
+
+---
+
+<p align="center"><em>"Code is a form of magic. I just chose to master it."</em></p>
+
+
+
