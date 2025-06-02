@@ -22,6 +22,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
 <h2 align="center">Tech Toolbox</h2>
 
+
 <div align="center">
 
 <table>
@@ -35,7 +36,11 @@ I have real-world experience working with both **relational** and **NoSQL** data
   </tr>
   <tr>
     <td><strong>Frameworks</strong></td>
-    <td>Symfony, Express, NestJS, React, Doctrine, Prisma</td>
+    <td>Symfony, Express, NestJS, React</td>
+  </tr>
+  <tr>
+    <td><strong>ORM / ODM</strong></td>
+    <td>Doctrine, Prisma, Mongoose</td>
   </tr>
   <tr>
     <td><strong>Databases</strong></td>
@@ -52,6 +57,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
 </table>
 
 </div>
+
 
 ---
 
