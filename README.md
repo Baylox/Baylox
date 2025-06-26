@@ -93,9 +93,6 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
 <p align="center"><em>"Code is a form of magic. I just chose to master it."</em></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-success?style=flat-square" />
-</p>
 
 
 
