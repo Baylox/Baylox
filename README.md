@@ -1,5 +1,4 @@
-<h1 align="center">Joris Dupont-Alamo</h1>
-<h3 align="center">Web Developer · Back-End Specialist · Data & Security Enthusiast</h3>
+<h1 align="center">Web Developer · Back-End Specialist · Data & Security Enthusiast</h3>
 
 <hr/>
 
