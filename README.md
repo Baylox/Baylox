@@ -11,9 +11,9 @@
 
 <h2 align="center">About Me</h2>
 
-I'm a web developer from France with a deep interest in backend development, data architecture, and cybersecurity.
+I'm a web developer from France with a deep interest in backend development, data architecture and cybersecurity.
 
-I focus on building solid, modular applications using technologies such as **Symfony**, **Node.js**, and **Docker**. I'm also engaged in the creation of secure and efficient APIs, data pipelines, and CLI tools that make a difference.
+I focus on building solid, modular applications using technologies such as **Symfony**, **Node.js** and **Docker**. I'm also engaged in the creation of secure and efficient APIs, data pipelines and CLI tools that make a difference.
 
 I have real-world experience working with both **relational** and **NoSQL** databases, implementing clean data models and writing optimized queries with a strong emphasis on security and reliability.
 
