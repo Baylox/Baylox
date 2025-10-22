@@ -31,10 +31,10 @@ I have real-world experience working with both **relational** and **NoSQL** data
   </tr>
   <tr>
     <td><strong>Languages</strong></td>
-    <td>PHP, JavaScript (Node.js), SQL, TypeScript, Python</td>
+    <td>PHP, JavaScript/TypeScript, SQL, Python</td>
   </tr>
   <tr>
-    <td><strong>Frameworks</strong></td>
+    <td><strong>Frameworks/ Libraries</strong></td>
     <td>Symfony, Express, NestJS, React</td>
   </tr>
   <tr>
