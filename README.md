@@ -34,7 +34,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
     <td>PHP, JavaScript/TypeScript, SQL, Python</td>
   </tr>
   <tr>
-    <td><strong>Frameworks/ Libraries</strong></td>
+    <td><strong>Frameworks / Libraries</strong></td>
     <td>Symfony, Express, NestJS, React</td>
   </tr>
   <tr>
