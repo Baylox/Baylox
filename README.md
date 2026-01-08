@@ -69,14 +69,6 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
 ---
 
-<h2 align="center">My GitHub Activity</h2>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Baylox&radius=16&theme=react&area=true" height="300" alt="Activity graph" />
-</div>
-
----
-
 <h2 align="center">Contact</h2>
 
 <p align="center">
