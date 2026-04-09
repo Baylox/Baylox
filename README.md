@@ -44,7 +44,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
   <tr>
     <td><strong>Frontend</strong></td>
-    <td>Angular</td>
+    <td>Angular, Next</td>
   </tr>
 
   <tr>
