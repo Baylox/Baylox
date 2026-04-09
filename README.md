@@ -49,7 +49,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
   <tr>
     <td><strong>ORM / ODM</strong></td>
-    <td>Doctrine, Prisma</td>
+    <td>Doctrine, Prisma, Hibernate (JPA)</td>
   </tr>
 
   <tr>
