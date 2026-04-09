@@ -76,17 +76,6 @@ I have real-world experience working with both **relational** and **NoSQL** data
 </div>
 
 
----
-
-<h2 align="center">Data Engineering & Security</h2>
-
-- Database modeling, indexing strategies, and schema design  
-- Implementation of secure access control (role-based permissions, input validation)  
-- Query optimization using Doctrine and Prisma ORM  
-- Development of custom vulnerability scanners and API security tests (CodeCrafters challenges, personal tools)  
-
----
-
 <h2 align="center">Contact</h2>
 
 <p align="center">
