@@ -1,4 +1,6 @@
-<h1 align="center">Web Developer · Back-End Specialist · Data & Security Enthusiast</h3>
+<h1 align="center">
+Backend Developer · Symfony & Spring Boot · Data & Security Enthusiast
+</h1>
 
 <hr/>
 
@@ -29,30 +31,46 @@ I have real-world experience working with both **relational** and **NoSQL** data
     <th>Category</th>
     <th>Technologies</th>
   </tr>
+
   <tr>
     <td><strong>Languages</strong></td>
-    <td>PHP, JavaScript/TypeScript, SQL, Python</td>
+    <td>PHP, Java, TypeScript, SQL, Python</td>
   </tr>
+
   <tr>
-    <td><strong>Frameworks / Libraries</strong></td>
-    <td>Symfony, Express, NestJS, React</td>
+    <td><strong>Backend</strong></td>
+    <td>Symfony, Spring Boot, Node.js (Express, NestJS)</td>
   </tr>
+
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>Angular</td>
+  </tr>
+
   <tr>
     <td><strong>ORM / ODM</strong></td>
-    <td>Doctrine, Prisma, Mongoose</td>
+    <td>Doctrine, Prisma</td>
   </tr>
+
   <tr>
     <td><strong>Databases</strong></td>
-    <td>MySQL, PostgreSQL, MongoDB Atlas</td>
+    <td>PostgreSQL, MySQL</td>
   </tr>
+
   <tr>
-    <td><strong>Dev Tools</strong></td>
-    <td>Docker, Git, Composer, Webpack, VS Code</td>
+    <td><strong>DevOps / Tools</strong></td>
+    <td>Docker, Git, Composer, Linux (WSL)</td>
   </tr>
-  <tr>
-    <td><strong>Practices</strong></td>
-    <td>REST API design, CLI development, Secure coding, Devcontainers, Shell scripting</td>
-  </tr>
+
+<tr>
+  <td><strong>Architecture & Concepts</strong></td>
+  <td>
+    REST APIs · Clean Architecture · SOLID<br>
+    DDD · Rich Domain Model<br>
+    Authorization (RBAC) · Service Layer · Repository Pattern
+  </td>
+</tr>
+
 </table>
 
 </div>
