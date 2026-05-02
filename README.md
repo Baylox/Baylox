@@ -44,7 +44,7 @@ I have real-world experience working with both **relational** and **NoSQL** data
 
   <tr>
     <td><strong>Frontend</strong></td>
-    <td>Angular, Next</td>
+    <td>Angular, Next.js</td>
   </tr>
 
   <tr>
@@ -88,6 +88,8 @@ I have real-world experience working with both **relational** and **NoSQL** data
 </p>
 
 ---
+
+<p align="center"><em>Feel free to check my pinned repositories below.</em></p>
 
 <p align="center"><em>"Code is a form of magic. I just chose to master it."</em></p>
 
