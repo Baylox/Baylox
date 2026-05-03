@@ -85,7 +85,7 @@
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Baylox&theme=tokyonight&hide_border=true&background=0d1117&stroke=7C83FD&ring=7C83FD&fire=FF6B6B&currStreakLabel=a0a0c0&sideLabels=a0a0c0&dates=a0a0c0&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Baylox&hide_border=true&background=0d1117&stroke=00cfff&ring=ff6a00&fire=ff6a00&currStreakLabel=00cfff&sideLabels=00cfff&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
 
 <br/>
 
