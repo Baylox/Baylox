@@ -17,12 +17,7 @@
 
 <div align="center">
 
-### `$ whoami`
-
-<br/>
-
-> *Web developer from **France**, focused on backend architecture, data engineering and application security.*  
-> *Building modular, maintainable systems with strong emphasis on **clean architecture**, **API design** and **reliability at scale**.*
+<img src="./assets/terminal.svg" width="700" alt="whoami"/>
 
 </div>
 
