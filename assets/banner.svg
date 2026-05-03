@@ -1,28 +1,54 @@
 <svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29">
-        <animate attributeName="stop-color" values="#0f0c29;#1a1540;#0f0c29" dur="6s" repeatCount="indefinite"/>
+
+    <!-- Fond ambiant glace → dark → feu -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00101a">
+        <animate attributeName="stop-color" values="#00101a;#00131f;#00101a" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#302b63">
-        <animate attributeName="stop-color" values="#302b63;#4a3f8a;#302b63" dur="6s" repeatCount="indefinite"/>
+      <stop offset="40%" stop-color="#0a0d0d">
+        <animate attributeName="stop-color" values="#0a0d0d;#0c1010;#0a0d0d" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#24243e">
-        <animate attributeName="stop-color" values="#24243e;#0f0c29;#24243e" dur="6s" repeatCount="indefinite"/>
+      <stop offset="60%" stop-color="#0d0a0a">
+        <animate attributeName="stop-color" values="#0d0a0a;#110c0c;#0d0a0a" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a0800">
+        <animate attributeName="stop-color" values="#1a0800;#200a00;#1a0800" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C83FD" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#7C83FD" stop-opacity="0.4"/>
-    </linearGradient>
+    <!-- Lueur glace gauche -->
+    <radialGradient id="glowFire" cx="15%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#00aaff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
+    </radialGradient>
 
+    <!-- Lueur feu droite -->
+    <radialGradient id="glowIce" cx="85%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff4500" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradient texte glace → feu -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d0d0f0"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#d0d0f0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#00cfff"/>
+      <stop offset="45%" stop-color="#0088bb"/>
+      <stop offset="55%" stop-color="#cc3300"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+
+    <!-- Vague glace -->
+    <linearGradient id="waveFireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00aaff" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#00aaff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Vague feu -->
+    <linearGradient id="waveIceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff4500" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff4500" stop-opacity="0.35"/>
     </linearGradient>
 
     <filter id="glow">
@@ -33,70 +59,110 @@
       </feMerge>
     </filter>
 
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
+    <filter id="glowText">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+
   </defs>
 
-  <!-- Background -->
-  <rect width="860" height="200" fill="url(#bgGrad)" rx="0"/>
+  <!-- Fond -->
+  <rect width="860" height="200" fill="url(#bgGrad)"/>
 
-  <!-- Wave bottom -->
-  <path fill="url(#waveGrad)">
+  <!-- Lueur ambiante feu gauche -->
+  <rect width="860" height="200" fill="url(#glowFire)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Lueur ambiante glace droite -->
+  <rect width="860" height="200" fill="url(#glowIce)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Vague feu bas gauche -->
+  <path fill="url(#waveFireGrad)">
     <animate attributeName="d"
-      values="M0,160 C200,140 400,180 600,155 C750,135 820,165 860,155 L860,200 L0,200 Z;
-              M0,155 C180,175 380,140 580,165 C730,180 810,145 860,160 L860,200 L0,200 Z;
-              M0,160 C200,140 400,180 600,155 C750,135 820,165 860,155 L860,200 L0,200 Z"
+      values="M0,162 C120,148 280,172 430,160 L430,200 L0,200 Z;
+              M0,158 C140,170 300,150 430,163 L430,200 L0,200 Z;
+              M0,162 C120,148 280,172 430,160 L430,200 L0,200 Z"
       dur="5s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Wave bottom 2 -->
-  <path fill="#7C83FD" fill-opacity="0.15">
+  <!-- Vague glace bas droite -->
+  <path fill="url(#waveIceGrad)">
     <animate attributeName="d"
-      values="M0,175 C150,160 350,185 550,170 C700,158 800,178 860,170 L860,200 L0,200 Z;
-              M0,170 C170,182 370,162 560,177 C710,188 805,165 860,175 L860,200 L0,200 Z;
-              M0,175 C150,160 350,185 550,170 C700,158 800,178 860,170 L860,200 L0,200 Z"
-      dur="7s" repeatCount="indefinite"/>
+      values="M430,160 C580,172 720,148 860,162 L860,200 L430,200 Z;
+              M430,163 C560,150 700,170 860,158 L860,200 L430,200 Z;
+              M430,160 C580,172 720,148 860,162 L860,200 L430,200 Z"
+      dur="5s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Particles -->
-  <circle cx="80" cy="50" r="2" fill="#7C83FD" fill-opacity="0.7">
-    <animate attributeName="cy" values="50;30;50" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="fill-opacity" values="0.7;0.2;0.7" dur="4s" repeatCount="indefinite"/>
+  <!-- Particules feu -->
+  <circle cx="60" cy="145" r="1.8" fill="#ff6a00" fill-opacity="0.7">
+    <animate attributeName="cy" values="145;110;145" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.7;0;0.7" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="200" cy="80" r="1.5" fill="#c4b5fd" fill-opacity="0.5">
-    <animate attributeName="cy" values="80;55;80" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="fill-opacity" values="0.5;0.1;0.5" dur="5s" repeatCount="indefinite"/>
+  <circle cx="140" cy="130" r="1.2" fill="#ff4500" fill-opacity="0.5">
+    <animate attributeName="cy" values="130;95;130" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.5;0;0.5" dur="4.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="650" cy="40" r="2" fill="#7C83FD" fill-opacity="0.6">
-    <animate attributeName="cy" values="40;20;40" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="fill-opacity" values="0.6;0.15;0.6" dur="3.5s" repeatCount="indefinite"/>
+  <circle cx="220" cy="155" r="1.5" fill="#ff9900" fill-opacity="0.4">
+    <animate attributeName="cy" values="155;120;155" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.4;0;0.4" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="780" cy="70" r="1.5" fill="#c4b5fd" fill-opacity="0.5">
-    <animate attributeName="cy" values="70;45;70" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="fill-opacity" values="0.5;0.1;0.5" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="430" cy="30" r="1" fill="#ffffff" fill-opacity="0.4">
-    <animate attributeName="cy" values="30;15;30" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="fill-opacity" values="0.4;0.05;0.4" dur="4.5s" repeatCount="indefinite"/>
+  <circle cx="95" cy="80" r="1" fill="#ff6a00" fill-opacity="0.5">
+    <animate attributeName="cy" values="80;50;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Main title shadow -->
-  <text x="430" y="95" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="42" font-weight="700"
+  <!-- Particules glace -->
+  <circle cx="800" cy="55" r="1.8" fill="#00cfff" fill-opacity="0.6">
+    <animate attributeName="cy" values="55;85;55" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.6;0;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="140" r="1.2" fill="#0099cc" fill-opacity="0.5">
+    <animate attributeName="cy" values="140;165;140" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.5;0;0.5" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="70" r="1.5" fill="#00cfff" fill-opacity="0.4">
+    <animate attributeName="cy" values="70;95;70" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.4;0;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="155" r="1" fill="#66ddff" fill-opacity="0.5">
+    <animate attributeName="cy" values="155;135;155" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.5;0;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Titre shadow -->
+  <text x="430" y="98" text-anchor="middle"
+    font-family="'JetBrains Mono', 'Courier New', monospace"
+    font-size="48" font-weight="700"
     fill="#000000" fill-opacity="0.5" filter="url(#shadow)">
     Baylox
   </text>
 
-  <!-- Main title -->
-  <text x="430" y="95" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="42" font-weight="700"
-    fill="url(#textGrad)" filter="url(#glow)">
+  <!-- Titre feu/glace -->
+  <text x="430" y="98" text-anchor="middle"
+    font-family="'JetBrains Mono', 'Courier New', monospace"
+    font-size="48" font-weight="700"
+    fill="url(#textGrad)" filter="url(#glowText)">
     Baylox
   </text>
 
-  <!-- Subtitle -->
-  <text x="430" y="132" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="14"
-    fill="#c4b5fd" letter-spacing="2" filter="url(#shadow)">
+  <!-- Sous-titre -->
+  <text x="430" y="138" text-anchor="middle"
+    font-family="'Segoe UI', monospace" font-size="13"
+    fill="#a0a8b0" letter-spacing="3" filter="url(#shadow)">
     Backend Developer · Symfony · Spring Boot
-    <animate attributeName="fill-opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
   </text>
+
 </svg>

@@ -1,68 +1,106 @@
 <svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29">
-        <animate attributeName="stop-color" values="#0f0c29;#1a1540;#0f0c29" dur="6s" repeatCount="indefinite"/>
+
+    <!-- Fond ambiant glace → dark → feu -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00101a">
+        <animate attributeName="stop-color" values="#00101a;#00131f;#00101a" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#302b63">
-        <animate attributeName="stop-color" values="#302b63;#4a3f8a;#302b63" dur="6s" repeatCount="indefinite"/>
+      <stop offset="40%" stop-color="#0a0d0d">
+        <animate attributeName="stop-color" values="#0a0d0d;#0c1010;#0a0d0d" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#24243e">
-        <animate attributeName="stop-color" values="#24243e;#0f0c29;#24243e" dur="6s" repeatCount="indefinite"/>
+      <stop offset="60%" stop-color="#0d0a0a">
+        <animate attributeName="stop-color" values="#0d0a0a;#110c0c;#0d0a0a" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a0800">
+        <animate attributeName="stop-color" values="#1a0800;#200a00;#1a0800" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C83FD" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#7C83FD" stop-opacity="0.4"/>
+    <!-- Lueur glace gauche -->
+    <radialGradient id="glowFire" cx="15%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#00aaff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Lueur feu droite -->
+    <radialGradient id="glowIce" cx="85%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff4500" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Vague glace haut gauche -->
+    <linearGradient id="waveFireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00aaff" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#00aaff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Vague feu haut droite -->
+    <linearGradient id="waveIceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff4500" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff4500" stop-opacity="0.35"/>
     </linearGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="shadow">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
+
   </defs>
 
-  <!-- Background -->
+  <!-- Fond -->
   <rect width="860" height="120" fill="url(#bgGrad)"/>
 
-  <!-- Wave top -->
-  <path fill="url(#waveGrad)">
+  <!-- Lueur feu gauche -->
+  <rect width="860" height="120" fill="url(#glowFire)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Lueur glace droite -->
+  <rect width="860" height="120" fill="url(#glowIce)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Vague feu haut gauche -->
+  <path fill="url(#waveFireGrad)">
     <animate attributeName="d"
-      values="M0,40 C200,60 400,20 600,45 C750,65 820,35 860,45 L860,0 L0,0 Z;
-              M0,45 C180,25 380,60 580,35 C730,20 810,55 860,40 L860,0 L0,0 Z;
-              M0,40 C200,60 400,20 600,45 C750,65 820,35 860,45 L860,0 L0,0 Z"
+      values="M0,42 C120,58 280,30 430,45 L430,0 L0,0 Z;
+              M0,38 C140,28 300,52 430,40 L430,0 L0,0 Z;
+              M0,42 C120,58 280,30 430,45 L430,0 L0,0 Z"
       dur="5s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Wave top 2 -->
-  <path fill="#7C83FD" fill-opacity="0.15">
+  <!-- Vague glace haut droite -->
+  <path fill="url(#waveIceGrad)">
     <animate attributeName="d"
-      values="M0,25 C150,40 350,15 550,30 C700,42 800,22 860,30 L860,0 L0,0 Z;
-              M0,30 C170,18 370,38 560,23 C710,12 805,35 860,25 L860,0 L0,0 Z;
-              M0,25 C150,40 350,15 550,30 C700,42 800,22 860,30 L860,0 L0,0 Z"
-      dur="7s" repeatCount="indefinite"/>
+      values="M430,45 C580,30 720,58 860,42 L860,0 L430,0 Z;
+              M430,40 C560,52 700,28 860,38 L860,0 L430,0 Z;
+              M430,45 C580,30 720,58 860,42 L860,0 L430,0 Z"
+      dur="5s" repeatCount="indefinite"/>
   </path>
 
   <!-- Quote shadow -->
-  <text x="430" y="78" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13"
+  <text x="430" y="78" text-anchor="middle"
+    font-family="'Segoe UI', monospace" font-size="13"
     fill="#000000" fill-opacity="0.5" font-style="italic" letter-spacing="1" filter="url(#shadow)">
     Code is a form of magic. I just chose to master it.
   </text>
 
   <!-- Quote text -->
-  <text x="430" y="78" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13"
-    fill="#e0e0ff" letter-spacing="1" font-style="italic" filter="url(#glow)">
+  <text x="430" y="78" text-anchor="middle"
+    font-family="'Segoe UI', monospace" font-size="13"
+    fill="#a0a8b0" letter-spacing="1" font-style="italic" filter="url(#glow)">
     Code is a form of magic. I just chose to master it.
-    <animate attributeName="fill-opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
   </text>
+
 </svg>
