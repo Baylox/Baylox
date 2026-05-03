@@ -28,7 +28,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+## <img src="./assets/icons/icon-stack.svg" width="20"/> Tech Stack
 
 <div align="center">
 
@@ -72,7 +72,7 @@
 
 ---
 
-## 🏗️ Architecture & Principles
+## <img src="./assets/icons/icon-architecture.svg" width="20"/> Architecture & Principles
 
 <div align="center">
 
@@ -86,7 +86,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## <img src="./assets/icons/icon-stats.svg" width="20"/> GitHub Stats
 
 <div align="center">
 
