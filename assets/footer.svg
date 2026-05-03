@@ -1,0 +1,68 @@
+<svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#1a1540;#0f0c29" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#302b63">
+        <animate attributeName="stop-color" values="#302b63;#4a3f8a;#302b63" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color" values="#24243e;#0f0c29;#24243e" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C83FD" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7C83FD" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="120" fill="url(#bgGrad)"/>
+
+  <!-- Wave top -->
+  <path fill="url(#waveGrad)">
+    <animate attributeName="d"
+      values="M0,40 C200,60 400,20 600,45 C750,65 820,35 860,45 L860,0 L0,0 Z;
+              M0,45 C180,25 380,60 580,35 C730,20 810,55 860,40 L860,0 L0,0 Z;
+              M0,40 C200,60 400,20 600,45 C750,65 820,35 860,45 L860,0 L0,0 Z"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave top 2 -->
+  <path fill="#7C83FD" fill-opacity="0.15">
+    <animate attributeName="d"
+      values="M0,25 C150,40 350,15 550,30 C700,42 800,22 860,30 L860,0 L0,0 Z;
+              M0,30 C170,18 370,38 560,23 C710,12 805,35 860,25 L860,0 L0,0 Z;
+              M0,25 C150,40 350,15 550,30 C700,42 800,22 860,30 L860,0 L0,0 Z"
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Quote shadow -->
+  <text x="430" y="78" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13"
+    fill="#000000" fill-opacity="0.5" font-style="italic" letter-spacing="1" filter="url(#shadow)">
+    Code is a form of magic. I just chose to master it.
+  </text>
+
+  <!-- Quote text -->
+  <text x="430" y="78" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13"
+    fill="#e0e0ff" letter-spacing="1" font-style="italic" filter="url(#glow)">
+    Code is a form of magic. I just chose to master it.
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+</svg>
