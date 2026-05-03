@@ -95,7 +95,7 @@
 
   <!-- Subtitle -->
   <text x="430" y="132" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="14"
-    fill="#9090b0" letter-spacing="2" filter="url(#shadow)">
+    fill="#c4b5fd" letter-spacing="2" filter="url(#shadow)">
     Backend Developer · Symfony · Spring Boot
     <animate attributeName="fill-opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
   </text>
