@@ -1,0 +1,46 @@
+<svg width="520" height="36" viewBox="0 0 520 36" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <!-- Gradient texte glace → feu (cohérent avec banner.svg) -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00cfff"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+
+    <!-- Masques de frappe : la largeur croît (frappe) puis décroît (effacement).
+         Cycle de 16 s, une ligne toutes les 4 s : ~1,4 s de frappe, ~2 s de pause, ~0,6 s d'effacement. -->
+    <clipPath id="type1">
+      <rect x="96" y="0" width="0" height="36">
+        <animate attributeName="width" begin="0s" dur="16s" repeatCount="indefinite"
+                 values="0;328;328;0;0" keyTimes="0;0.09;0.21;0.25;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type2">
+      <rect x="96" y="0" width="0" height="36">
+        <animate attributeName="width" begin="4s" dur="16s" repeatCount="indefinite"
+                 values="0;328;328;0;0" keyTimes="0;0.09;0.21;0.25;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type3">
+      <rect x="85" y="0" width="0" height="36">
+        <animate attributeName="width" begin="8s" dur="16s" repeatCount="indefinite"
+                 values="0;350;350;0;0" keyTimes="0;0.09;0.21;0.25;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type4">
+      <rect x="150" y="0" width="0" height="36">
+        <animate attributeName="width" begin="12s" dur="16s" repeatCount="indefinite"
+                 values="0;220;220;0;0" keyTimes="0;0.09;0.21;0.25;1"/>
+      </rect>
+    </clipPath>
+
+  </defs>
+
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" font-weight="500" text-anchor="middle">
+    <text x="260" y="25" fill="url(#textGrad)" clip-path="url(#type1)">Symfony | Spring Boot | NestJS</text>
+    <text x="260" y="25" fill="url(#textGrad)" clip-path="url(#type2)">PostgreSQL | Doctrine | Prisma</text>
+    <text x="260" y="25" fill="url(#textGrad)" clip-path="url(#type3)">Clean Architecture | DDD | SOLID</text>
+    <text x="260" y="25" fill="url(#textGrad)" clip-path="url(#type4)">Docker | Linux | Git</text>
+  </g>
+
+</svg>

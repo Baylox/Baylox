@@ -1,0 +1,84 @@
+<svg width="700" height="320" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ============ Carte 1 : sentinel-py ============ -->
+  <g>
+    <rect x="0" y="0" width="340" height="150" rx="8" fill="#0d1117" stroke="#1f2630" stroke-width="1"/>
+    <rect x="0" y="0" width="340" height="28" rx="8" fill="#161b22"/>
+    <rect x="0" y="20" width="340" height="8" fill="#161b22"/>
+    <circle cx="16" cy="14" r="4" fill="#ff5f57"/>
+    <circle cx="30" cy="14" r="4" fill="#febc2e"/>
+    <circle cx="44" cy="14" r="4" fill="#28c840"/>
+    <text x="320" y="18" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6e7681">Python</text>
+
+    <text x="18" y="58" font-family="'JetBrains Mono', monospace" font-size="15" fill="#00cfff" filter="url(#glow)">sentinel-py</text>
+    <text x="18" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Modular vulnerability scanner —</text>
+    <text x="18" y="100" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">port scan, SSL &amp; HTTP header checks.</text>
+
+    <text x="18" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#ff6a00" filter="url(#glow)">› security</text>
+    <text x="322" y="132" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6e7681">★ 2</text>
+  </g>
+
+  <!-- ============ Carte 2 : taskio ============ -->
+  <g>
+    <rect x="360" y="0" width="340" height="150" rx="8" fill="#0d1117" stroke="#1f2630" stroke-width="1"/>
+    <rect x="360" y="0" width="340" height="28" rx="8" fill="#161b22"/>
+    <rect x="360" y="20" width="340" height="8" fill="#161b22"/>
+    <circle cx="376" cy="14" r="4" fill="#ff5f57"/>
+    <circle cx="390" cy="14" r="4" fill="#febc2e"/>
+    <circle cx="404" cy="14" r="4" fill="#28c840"/>
+    <text x="680" y="18" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6e7681">Symfony · Twig</text>
+
+    <text x="378" y="58" font-family="'JetBrains Mono', monospace" font-size="15" fill="#00cfff" filter="url(#glow)">taskio</text>
+    <text x="378" y="84" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Lightweight CRM &amp; task manager —</text>
+    <text x="378" y="100" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">boards, lanes &amp; cards, Kanban-style.</text>
+
+    <text x="378" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#ff6a00" filter="url(#glow)">› backend</text>
+    <text x="682" y="132" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6e7681">★ 5</text>
+  </g>
+
+  <!-- ============ Carte 3 : its-not-skynet ============ -->
+  <g>
+    <rect x="0" y="170" width="340" height="150" rx="8" fill="#0d1117" stroke="#1f2630" stroke-width="1"/>
+    <rect x="0" y="170" width="340" height="28" rx="8" fill="#161b22"/>
+    <rect x="0" y="190" width="340" height="8" fill="#161b22"/>
+    <circle cx="16" cy="184" r="4" fill="#ff5f57"/>
+    <circle cx="30" cy="184" r="4" fill="#febc2e"/>
+    <circle cx="44" cy="184" r="4" fill="#28c840"/>
+    <text x="320" y="188" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6e7681">Shell</text>
+
+    <text x="18" y="228" font-family="'JetBrains Mono', monospace" font-size="15" fill="#00cfff" filter="url(#glow)">its-not-skynet</text>
+    <text x="18" y="254" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Curated CLI/AI dev resources —</text>
+    <text x="18" y="270" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">skills, hooks &amp; subagents, human-vetted.</text>
+
+    <text x="18" y="302" font-family="'JetBrains Mono', monospace" font-size="11" fill="#ff6a00" filter="url(#glow)">› tooling</text>
+    <text x="322" y="302" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6e7681">★ 7</text>
+  </g>
+
+  <!-- ============ Carte 4 : neatify ============ -->
+  <g>
+    <rect x="360" y="170" width="340" height="150" rx="8" fill="#0d1117" stroke="#1f2630" stroke-width="1"/>
+    <rect x="360" y="170" width="340" height="28" rx="8" fill="#161b22"/>
+    <rect x="360" y="190" width="340" height="8" fill="#161b22"/>
+    <circle cx="376" cy="184" r="4" fill="#ff5f57"/>
+    <circle cx="390" cy="184" r="4" fill="#febc2e"/>
+    <circle cx="404" cy="184" r="4" fill="#28c840"/>
+    <text x="680" y="188" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6e7681">Java</text>
+
+    <text x="378" y="228" font-family="'JetBrains Mono', monospace" font-size="15" fill="#00cfff" filter="url(#glow)">neatify</text>
+    <text x="378" y="254" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Folder-tidying CLI — sorts files by</text>
+    <text x="378" y="270" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">type, safe dry-run preview first.</text>
+
+    <text x="378" y="302" font-family="'JetBrains Mono', monospace" font-size="11" fill="#ff6a00" filter="url(#glow)">› cli</text>
+    <text x="682" y="302" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6e7681">★ 2</text>
+  </g>
+
+</svg>
