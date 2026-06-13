@@ -31,12 +31,7 @@
 
 <img src="./assets/projects.svg" width="700" alt="Featured projects" />
 
-<sub>
-<a href="https://github.com/Baylox/sentinel-py">sentinel-py</a> ·
-<a href="https://github.com/Baylox/taskio">taskio</a> ·
-<a href="https://github.com/Baylox/its-not-skynet">its-not-skynet</a> ·
-<a href="https://github.com/Baylox/neatify">neatify</a>
-</sub>
+<sub><a href="https://github.com/Baylox/sentinel-py">sentinel-py</a>&nbsp;·&nbsp;<a href="https://github.com/Baylox/taskio">taskio</a>&nbsp;·&nbsp;<a href="https://github.com/Baylox/its-not-skynet">its-not-skynet</a>&nbsp;·&nbsp;<a href="https://github.com/Baylox/neatify">neatify</a></sub>
 
 </div>
 
